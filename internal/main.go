@@ -33,7 +33,8 @@ package iso3166
 
 const (
 	{{range $k, $v := .}}
-		{{- $v.Code }} ISO31661Alpha2 = "{{$v.Name }}"
+		// {{$v.Name }}
+		{{ $v.Code }} ISO31661Alpha2 = "{{$v.Code }}"
 	{{end -}}
 )
 type ISO31661Alpha2 string
