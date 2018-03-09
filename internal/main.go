@@ -1,6 +1,6 @@
-// Most of the logic in this file is based off the original comp_err.c
-// used by mysql itself to parse the error message file and
-// generate the mysqld_error.h header file.
+// this file is used to retrieve the version of the ISO country codes from
+// the datasource named id rawFile.
+// the iso.go file is then generated.
 package main
 
 import (
@@ -38,6 +38,10 @@ const (
 	{{end -}}
 )
 type ISO31661Alpha2 string
+
+func (i ISO31661Alpha2) String() string {
+	return string(i)
+}
 
 var ValidCodes = []ISO31661Alpha2{
 	{{range $k, $v := .}}

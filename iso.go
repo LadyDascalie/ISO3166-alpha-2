@@ -754,6 +754,10 @@ const (
 
 type ISO31661Alpha2 string
 
+func (i ISO31661Alpha2) String() string {
+	return string(i)
+}
+
 var ValidCodes = []ISO31661Alpha2{
 	AF,
 	AX,
