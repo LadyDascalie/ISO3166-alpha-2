@@ -1008,7 +1008,7 @@ func (i ISO31661Alpha2) String() string {
 	return string(i)
 }
 
-var ValidCodes = []ISO31661Alpha2{
+var ValidAlpha2Codes = []ISO31661Alpha2{
 	TW,
 	AF,
 	AL,
@@ -1266,7 +1266,7 @@ func (i ISO31661Alpha3) String() string {
 	return string(i)
 }
 
-var ValidCodes = []ISO31661Alpha3{
+var ValidAlpha3Codes = []ISO31661Alpha3{
 	TWN,
 	AFG,
 	ALB,
