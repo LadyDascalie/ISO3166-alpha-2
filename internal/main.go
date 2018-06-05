@@ -6,21 +6,21 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	"go/format"
-	"io/ioutil"
+		"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"text/template"
 	"time"
-)
+	)
 
-const rawFile = "https://datahub.io/core/country-list/r/data.json"
+const rawFile = "https://datahub.io/core/country-codes/r/country-codes.json"
 const textFile = "latest_iso.txt"
 
 type ISOSource []struct {
-	Code string
-	Name string
+	Name              string `json:"CLDR display name"`
+	CodeISO3166Alpha2 string `json:"ISO3166-1-Alpha-2"`
+	CodeISO3166Alpha3 string `json:"ISO3166-1-Alpha-3"`
 }
 
 var client = &http.Client{
@@ -34,18 +34,32 @@ package iso3166
 const (
 	{{range $k, $v := .}}
 		// {{$v.Name }}
-		{{ $v.Code }} ISO31661Alpha2 = "{{$v.Code }}"
+		{{ $v.CodeISO3166Alpha2 }} ISO31661Alpha2 = "{{$v.CodeISO3166Alpha2 }}"
+		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
 	{{end -}}
 )
+
 type ISO31661Alpha2 string
 
 func (i ISO31661Alpha2) String() string {
 	return string(i)
 }
 
-var ValidCodes = []ISO31661Alpha2{
+var ValidAlpha2Codes = []ISO31661Alpha2{
 	{{range $k, $v := .}}
-		{{- $v.Code -}},
+		{{- $v.CodeISO3166Alpha2 -}},
+	{{end -}}
+}
+
+type ISO31661Alpha3 string
+
+func (i ISO31661Alpha3) String() string {
+	return string(i)
+}
+
+var ValidAlpha3Codes = []ISO31661Alpha3{
+	{{range $k, $v := .}}
+		{{- $v.CodeISO3166Alpha3 -}},
 	{{end -}}
 }
 `
@@ -67,6 +81,11 @@ func main() {
 	if err := json.Unmarshal(b, &source); err != nil {
 		log.Fatalf("cannot unmarshal json: %v", err)
 	}
+	for i, s := range source {
+		if s.Name == "" {
+			source = append(source[:i], source[i+1:]...)
+		}
+	}
 
 	// execute the template into a buffer
 	var buf bytes.Buffer
@@ -76,10 +95,10 @@ func main() {
 	}
 
 	// format the new source code
-	byt, err := format.Source(buf.Bytes())
-	if err != nil {
-		log.Printf("error formatting source: %v", err)
-	}
+	//byt, err := format.Source(buf.Bytes())
+	//if err != nil {
+	//	log.Printf("error formatting source: %v", err)
+	//}
 
 	// create the outfile
 	outfile, err := os.Create("../iso.go")
@@ -88,7 +107,7 @@ func main() {
 	}
 
 	// write it to disk
-	if _, err := outfile.Write(byt); err != nil {
+	if _, err := outfile.Write(buf.Bytes()); err != nil {
 		log.Printf("error writing to disk: %v", err)
 	}
 }
