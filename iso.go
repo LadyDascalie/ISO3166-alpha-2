@@ -4,752 +4,1001 @@ package iso3166
 
 const (
 
-	// Afghanistan
-	AF ISO31661Alpha2 = "AF"
+	// Taiwan
+	TW  ISO31661Alpha2 = "TW"
+	TWN ISO31661Alpha3 = "TWN"
 
-	// Åland Islands
-	AX ISO31661Alpha2 = "AX"
+	// Afghanistan
+	AF  ISO31661Alpha2 = "AF"
+	AFG ISO31661Alpha3 = "AFG"
 
 	// Albania
-	AL ISO31661Alpha2 = "AL"
+	AL  ISO31661Alpha2 = "AL"
+	ALB ISO31661Alpha3 = "ALB"
 
 	// Algeria
-	DZ ISO31661Alpha2 = "DZ"
+	DZ  ISO31661Alpha2 = "DZ"
+	DZA ISO31661Alpha3 = "DZA"
 
 	// American Samoa
-	AS ISO31661Alpha2 = "AS"
+	AS  ISO31661Alpha2 = "AS"
+	ASM ISO31661Alpha3 = "ASM"
 
 	// Andorra
-	AD ISO31661Alpha2 = "AD"
+	AD  ISO31661Alpha2 = "AD"
+	AND ISO31661Alpha3 = "AND"
 
 	// Angola
-	AO ISO31661Alpha2 = "AO"
+	AO  ISO31661Alpha2 = "AO"
+	AGO ISO31661Alpha3 = "AGO"
 
 	// Anguilla
-	AI ISO31661Alpha2 = "AI"
+	AI  ISO31661Alpha2 = "AI"
+	AIA ISO31661Alpha3 = "AIA"
 
 	// Antarctica
-	AQ ISO31661Alpha2 = "AQ"
+	AQ  ISO31661Alpha2 = "AQ"
+	ATA ISO31661Alpha3 = "ATA"
 
-	// Antigua and Barbuda
-	AG ISO31661Alpha2 = "AG"
+	// Antigua & Barbuda
+	AG  ISO31661Alpha2 = "AG"
+	ATG ISO31661Alpha3 = "ATG"
 
 	// Argentina
-	AR ISO31661Alpha2 = "AR"
+	AR  ISO31661Alpha2 = "AR"
+	ARG ISO31661Alpha3 = "ARG"
 
 	// Armenia
-	AM ISO31661Alpha2 = "AM"
+	AM  ISO31661Alpha2 = "AM"
+	ARM ISO31661Alpha3 = "ARM"
 
 	// Aruba
-	AW ISO31661Alpha2 = "AW"
+	AW  ISO31661Alpha2 = "AW"
+	ABW ISO31661Alpha3 = "ABW"
 
 	// Australia
-	AU ISO31661Alpha2 = "AU"
+	AU  ISO31661Alpha2 = "AU"
+	AUS ISO31661Alpha3 = "AUS"
 
 	// Austria
-	AT ISO31661Alpha2 = "AT"
+	AT  ISO31661Alpha2 = "AT"
+	AUT ISO31661Alpha3 = "AUT"
 
 	// Azerbaijan
-	AZ ISO31661Alpha2 = "AZ"
+	AZ  ISO31661Alpha2 = "AZ"
+	AZE ISO31661Alpha3 = "AZE"
 
 	// Bahamas
-	BS ISO31661Alpha2 = "BS"
+	BS  ISO31661Alpha2 = "BS"
+	BHS ISO31661Alpha3 = "BHS"
 
 	// Bahrain
-	BH ISO31661Alpha2 = "BH"
+	BH  ISO31661Alpha2 = "BH"
+	BHR ISO31661Alpha3 = "BHR"
 
 	// Bangladesh
-	BD ISO31661Alpha2 = "BD"
+	BD  ISO31661Alpha2 = "BD"
+	BGD ISO31661Alpha3 = "BGD"
 
 	// Barbados
-	BB ISO31661Alpha2 = "BB"
+	BB  ISO31661Alpha2 = "BB"
+	BRB ISO31661Alpha3 = "BRB"
 
 	// Belarus
-	BY ISO31661Alpha2 = "BY"
+	BY  ISO31661Alpha2 = "BY"
+	BLR ISO31661Alpha3 = "BLR"
 
 	// Belgium
-	BE ISO31661Alpha2 = "BE"
+	BE  ISO31661Alpha2 = "BE"
+	BEL ISO31661Alpha3 = "BEL"
 
 	// Belize
-	BZ ISO31661Alpha2 = "BZ"
+	BZ  ISO31661Alpha2 = "BZ"
+	BLZ ISO31661Alpha3 = "BLZ"
 
 	// Benin
-	BJ ISO31661Alpha2 = "BJ"
+	BJ  ISO31661Alpha2 = "BJ"
+	BEN ISO31661Alpha3 = "BEN"
 
 	// Bermuda
-	BM ISO31661Alpha2 = "BM"
+	BM  ISO31661Alpha2 = "BM"
+	BMU ISO31661Alpha3 = "BMU"
 
 	// Bhutan
-	BT ISO31661Alpha2 = "BT"
+	BT  ISO31661Alpha2 = "BT"
+	BTN ISO31661Alpha3 = "BTN"
 
-	// Bolivia, Plurinational State of
-	BO ISO31661Alpha2 = "BO"
+	// Bolivia
+	BO  ISO31661Alpha2 = "BO"
+	BOL ISO31661Alpha3 = "BOL"
 
-	// Bonaire, Sint Eustatius and Saba
-	BQ ISO31661Alpha2 = "BQ"
+	// Caribbean Netherlands
+	BQ  ISO31661Alpha2 = "BQ"
+	BES ISO31661Alpha3 = "BES"
 
-	// Bosnia and Herzegovina
-	BA ISO31661Alpha2 = "BA"
+	// Bosnia
+	BA  ISO31661Alpha2 = "BA"
+	BIH ISO31661Alpha3 = "BIH"
 
 	// Botswana
-	BW ISO31661Alpha2 = "BW"
+	BW  ISO31661Alpha2 = "BW"
+	BWA ISO31661Alpha3 = "BWA"
 
 	// Bouvet Island
-	BV ISO31661Alpha2 = "BV"
+	BV  ISO31661Alpha2 = "BV"
+	BVT ISO31661Alpha3 = "BVT"
 
 	// Brazil
-	BR ISO31661Alpha2 = "BR"
+	BR  ISO31661Alpha2 = "BR"
+	BRA ISO31661Alpha3 = "BRA"
 
 	// British Indian Ocean Territory
-	IO ISO31661Alpha2 = "IO"
+	IO  ISO31661Alpha2 = "IO"
+	IOT ISO31661Alpha3 = "IOT"
 
-	// Brunei Darussalam
-	BN ISO31661Alpha2 = "BN"
+	// British Virgin Islands
+	VG  ISO31661Alpha2 = "VG"
+	VGB ISO31661Alpha3 = "VGB"
+
+	// Brunei
+	BN  ISO31661Alpha2 = "BN"
+	BRN ISO31661Alpha3 = "BRN"
 
 	// Bulgaria
-	BG ISO31661Alpha2 = "BG"
+	BG  ISO31661Alpha2 = "BG"
+	BGR ISO31661Alpha3 = "BGR"
 
 	// Burkina Faso
-	BF ISO31661Alpha2 = "BF"
+	BF  ISO31661Alpha2 = "BF"
+	BFA ISO31661Alpha3 = "BFA"
 
 	// Burundi
-	BI ISO31661Alpha2 = "BI"
-
-	// Cambodia
-	KH ISO31661Alpha2 = "KH"
-
-	// Cameroon
-	CM ISO31661Alpha2 = "CM"
-
-	// Canada
-	CA ISO31661Alpha2 = "CA"
+	BI  ISO31661Alpha2 = "BI"
+	BDI ISO31661Alpha3 = "BDI"
 
 	// Cape Verde
-	CV ISO31661Alpha2 = "CV"
+	CV  ISO31661Alpha2 = "CV"
+	CPV ISO31661Alpha3 = "CPV"
+
+	// Cambodia
+	KH  ISO31661Alpha2 = "KH"
+	KHM ISO31661Alpha3 = "KHM"
+
+	// Cameroon
+	CM  ISO31661Alpha2 = "CM"
+	CMR ISO31661Alpha3 = "CMR"
+
+	// Canada
+	CA  ISO31661Alpha2 = "CA"
+	CAN ISO31661Alpha3 = "CAN"
 
 	// Cayman Islands
-	KY ISO31661Alpha2 = "KY"
+	KY  ISO31661Alpha2 = "KY"
+	CYM ISO31661Alpha3 = "CYM"
 
 	// Central African Republic
-	CF ISO31661Alpha2 = "CF"
+	CF  ISO31661Alpha2 = "CF"
+	CAF ISO31661Alpha3 = "CAF"
 
 	// Chad
-	TD ISO31661Alpha2 = "TD"
+	TD  ISO31661Alpha2 = "TD"
+	TCD ISO31661Alpha3 = "TCD"
 
 	// Chile
-	CL ISO31661Alpha2 = "CL"
+	CL  ISO31661Alpha2 = "CL"
+	CHL ISO31661Alpha3 = "CHL"
 
 	// China
-	CN ISO31661Alpha2 = "CN"
-
-	// Christmas Island
-	CX ISO31661Alpha2 = "CX"
-
-	// Cocos (Keeling) Islands
-	CC ISO31661Alpha2 = "CC"
-
-	// Colombia
-	CO ISO31661Alpha2 = "CO"
-
-	// Comoros
-	KM ISO31661Alpha2 = "KM"
-
-	// Congo
-	CG ISO31661Alpha2 = "CG"
-
-	// Congo, the Democratic Republic of the
-	CD ISO31661Alpha2 = "CD"
-
-	// Cook Islands
-	CK ISO31661Alpha2 = "CK"
-
-	// Costa Rica
-	CR ISO31661Alpha2 = "CR"
-
-	// Côte d'Ivoire
-	CI ISO31661Alpha2 = "CI"
-
-	// Croatia
-	HR ISO31661Alpha2 = "HR"
-
-	// Cuba
-	CU ISO31661Alpha2 = "CU"
-
-	// Curaçao
-	CW ISO31661Alpha2 = "CW"
-
-	// Cyprus
-	CY ISO31661Alpha2 = "CY"
-
-	// Czech Republic
-	CZ ISO31661Alpha2 = "CZ"
-
-	// Denmark
-	DK ISO31661Alpha2 = "DK"
-
-	// Djibouti
-	DJ ISO31661Alpha2 = "DJ"
-
-	// Dominica
-	DM ISO31661Alpha2 = "DM"
-
-	// Dominican Republic
-	DO ISO31661Alpha2 = "DO"
-
-	// Ecuador
-	EC ISO31661Alpha2 = "EC"
-
-	// Egypt
-	EG ISO31661Alpha2 = "EG"
-
-	// El Salvador
-	SV ISO31661Alpha2 = "SV"
-
-	// Equatorial Guinea
-	GQ ISO31661Alpha2 = "GQ"
-
-	// Eritrea
-	ER ISO31661Alpha2 = "ER"
-
-	// Estonia
-	EE ISO31661Alpha2 = "EE"
-
-	// Ethiopia
-	ET ISO31661Alpha2 = "ET"
-
-	// Falkland Islands (Malvinas)
-	FK ISO31661Alpha2 = "FK"
-
-	// Faroe Islands
-	FO ISO31661Alpha2 = "FO"
-
-	// Fiji
-	FJ ISO31661Alpha2 = "FJ"
-
-	// Finland
-	FI ISO31661Alpha2 = "FI"
-
-	// France
-	FR ISO31661Alpha2 = "FR"
-
-	// French Guiana
-	GF ISO31661Alpha2 = "GF"
-
-	// French Polynesia
-	PF ISO31661Alpha2 = "PF"
-
-	// French Southern Territories
-	TF ISO31661Alpha2 = "TF"
-
-	// Gabon
-	GA ISO31661Alpha2 = "GA"
-
-	// Gambia
-	GM ISO31661Alpha2 = "GM"
-
-	// Georgia
-	GE ISO31661Alpha2 = "GE"
-
-	// Germany
-	DE ISO31661Alpha2 = "DE"
-
-	// Ghana
-	GH ISO31661Alpha2 = "GH"
-
-	// Gibraltar
-	GI ISO31661Alpha2 = "GI"
-
-	// Greece
-	GR ISO31661Alpha2 = "GR"
-
-	// Greenland
-	GL ISO31661Alpha2 = "GL"
-
-	// Grenada
-	GD ISO31661Alpha2 = "GD"
-
-	// Guadeloupe
-	GP ISO31661Alpha2 = "GP"
-
-	// Guam
-	GU ISO31661Alpha2 = "GU"
-
-	// Guatemala
-	GT ISO31661Alpha2 = "GT"
-
-	// Guernsey
-	GG ISO31661Alpha2 = "GG"
-
-	// Guinea
-	GN ISO31661Alpha2 = "GN"
-
-	// Guinea-Bissau
-	GW ISO31661Alpha2 = "GW"
-
-	// Guyana
-	GY ISO31661Alpha2 = "GY"
-
-	// Haiti
-	HT ISO31661Alpha2 = "HT"
-
-	// Heard Island and McDonald Islands
-	HM ISO31661Alpha2 = "HM"
-
-	// Holy See (Vatican City State)
-	VA ISO31661Alpha2 = "VA"
-
-	// Honduras
-	HN ISO31661Alpha2 = "HN"
+	CN  ISO31661Alpha2 = "CN"
+	CHN ISO31661Alpha3 = "CHN"
 
 	// Hong Kong
-	HK ISO31661Alpha2 = "HK"
+	HK  ISO31661Alpha2 = "HK"
+	HKG ISO31661Alpha3 = "HKG"
+
+	// Macau
+	MO  ISO31661Alpha2 = "MO"
+	MAC ISO31661Alpha3 = "MAC"
+
+	// Christmas Island
+	CX  ISO31661Alpha2 = "CX"
+	CXR ISO31661Alpha3 = "CXR"
+
+	// Cocos (Keeling) Islands
+	CC  ISO31661Alpha2 = "CC"
+	CCK ISO31661Alpha3 = "CCK"
+
+	// Colombia
+	CO  ISO31661Alpha2 = "CO"
+	COL ISO31661Alpha3 = "COL"
+
+	// Comoros
+	KM  ISO31661Alpha2 = "KM"
+	COM ISO31661Alpha3 = "COM"
+
+	// Congo - Brazzaville
+	CG  ISO31661Alpha2 = "CG"
+	COG ISO31661Alpha3 = "COG"
+
+	// Cook Islands
+	CK  ISO31661Alpha2 = "CK"
+	COK ISO31661Alpha3 = "COK"
+
+	// Costa Rica
+	CR  ISO31661Alpha2 = "CR"
+	CRI ISO31661Alpha3 = "CRI"
+
+	// Croatia
+	HR  ISO31661Alpha2 = "HR"
+	HRV ISO31661Alpha3 = "HRV"
+
+	// Cuba
+	CU  ISO31661Alpha2 = "CU"
+	CUB ISO31661Alpha3 = "CUB"
+
+	// Curaçao
+	CW  ISO31661Alpha2 = "CW"
+	CUW ISO31661Alpha3 = "CUW"
+
+	// Cyprus
+	CY  ISO31661Alpha2 = "CY"
+	CYP ISO31661Alpha3 = "CYP"
+
+	// Czechia
+	CZ  ISO31661Alpha2 = "CZ"
+	CZE ISO31661Alpha3 = "CZE"
+
+	// Côte d’Ivoire
+	CI  ISO31661Alpha2 = "CI"
+	CIV ISO31661Alpha3 = "CIV"
+
+	// North Korea
+	KP  ISO31661Alpha2 = "KP"
+	PRK ISO31661Alpha3 = "PRK"
+
+	// Congo - Kinshasa
+	CD  ISO31661Alpha2 = "CD"
+	COD ISO31661Alpha3 = "COD"
+
+	// Denmark
+	DK  ISO31661Alpha2 = "DK"
+	DNK ISO31661Alpha3 = "DNK"
+
+	// Djibouti
+	DJ  ISO31661Alpha2 = "DJ"
+	DJI ISO31661Alpha3 = "DJI"
+
+	// Dominica
+	DM  ISO31661Alpha2 = "DM"
+	DMA ISO31661Alpha3 = "DMA"
+
+	// Dominican Republic
+	DO  ISO31661Alpha2 = "DO"
+	DOM ISO31661Alpha3 = "DOM"
+
+	// Ecuador
+	EC  ISO31661Alpha2 = "EC"
+	ECU ISO31661Alpha3 = "ECU"
+
+	// Egypt
+	EG  ISO31661Alpha2 = "EG"
+	EGY ISO31661Alpha3 = "EGY"
+
+	// El Salvador
+	SV  ISO31661Alpha2 = "SV"
+	SLV ISO31661Alpha3 = "SLV"
+
+	// Equatorial Guinea
+	GQ  ISO31661Alpha2 = "GQ"
+	GNQ ISO31661Alpha3 = "GNQ"
+
+	// Eritrea
+	ER  ISO31661Alpha2 = "ER"
+	ERI ISO31661Alpha3 = "ERI"
+
+	// Estonia
+	EE  ISO31661Alpha2 = "EE"
+	EST ISO31661Alpha3 = "EST"
+
+	// Ethiopia
+	ET  ISO31661Alpha2 = "ET"
+	ETH ISO31661Alpha3 = "ETH"
+
+	// Falkland Islands
+	FK  ISO31661Alpha2 = "FK"
+	FLK ISO31661Alpha3 = "FLK"
+
+	// Faroe Islands
+	FO  ISO31661Alpha2 = "FO"
+	FRO ISO31661Alpha3 = "FRO"
+
+	// Fiji
+	FJ  ISO31661Alpha2 = "FJ"
+	FJI ISO31661Alpha3 = "FJI"
+
+	// Finland
+	FI  ISO31661Alpha2 = "FI"
+	FIN ISO31661Alpha3 = "FIN"
+
+	// France
+	FR  ISO31661Alpha2 = "FR"
+	FRA ISO31661Alpha3 = "FRA"
+
+	// French Guiana
+	GF  ISO31661Alpha2 = "GF"
+	GUF ISO31661Alpha3 = "GUF"
+
+	// French Polynesia
+	PF  ISO31661Alpha2 = "PF"
+	PYF ISO31661Alpha3 = "PYF"
+
+	// French Southern Territories
+	TF  ISO31661Alpha2 = "TF"
+	ATF ISO31661Alpha3 = "ATF"
+
+	// Gabon
+	GA  ISO31661Alpha2 = "GA"
+	GAB ISO31661Alpha3 = "GAB"
+
+	// Gambia
+	GM  ISO31661Alpha2 = "GM"
+	GMB ISO31661Alpha3 = "GMB"
+
+	// Georgia
+	GE  ISO31661Alpha2 = "GE"
+	GEO ISO31661Alpha3 = "GEO"
+
+	// Germany
+	DE  ISO31661Alpha2 = "DE"
+	DEU ISO31661Alpha3 = "DEU"
+
+	// Ghana
+	GH  ISO31661Alpha2 = "GH"
+	GHA ISO31661Alpha3 = "GHA"
+
+	// Gibraltar
+	GI  ISO31661Alpha2 = "GI"
+	GIB ISO31661Alpha3 = "GIB"
+
+	// Greece
+	GR  ISO31661Alpha2 = "GR"
+	GRC ISO31661Alpha3 = "GRC"
+
+	// Greenland
+	GL  ISO31661Alpha2 = "GL"
+	GRL ISO31661Alpha3 = "GRL"
+
+	// Grenada
+	GD  ISO31661Alpha2 = "GD"
+	GRD ISO31661Alpha3 = "GRD"
+
+	// Guadeloupe
+	GP  ISO31661Alpha2 = "GP"
+	GLP ISO31661Alpha3 = "GLP"
+
+	// Guam
+	GU  ISO31661Alpha2 = "GU"
+	GUM ISO31661Alpha3 = "GUM"
+
+	// Guatemala
+	GT  ISO31661Alpha2 = "GT"
+	GTM ISO31661Alpha3 = "GTM"
+
+	// Guernsey
+	GG  ISO31661Alpha2 = "GG"
+	GGY ISO31661Alpha3 = "GGY"
+
+	// Guinea
+	GN  ISO31661Alpha2 = "GN"
+	GIN ISO31661Alpha3 = "GIN"
+
+	// Guinea-Bissau
+	GW  ISO31661Alpha2 = "GW"
+	GNB ISO31661Alpha3 = "GNB"
+
+	// Guyana
+	GY  ISO31661Alpha2 = "GY"
+	GUY ISO31661Alpha3 = "GUY"
+
+	// Haiti
+	HT  ISO31661Alpha2 = "HT"
+	HTI ISO31661Alpha3 = "HTI"
+
+	// Heard & McDonald Islands
+	HM  ISO31661Alpha2 = "HM"
+	HMD ISO31661Alpha3 = "HMD"
+
+	// Vatican City
+	VA  ISO31661Alpha2 = "VA"
+	VAT ISO31661Alpha3 = "VAT"
+
+	// Honduras
+	HN  ISO31661Alpha2 = "HN"
+	HND ISO31661Alpha3 = "HND"
 
 	// Hungary
-	HU ISO31661Alpha2 = "HU"
+	HU  ISO31661Alpha2 = "HU"
+	HUN ISO31661Alpha3 = "HUN"
 
 	// Iceland
-	IS ISO31661Alpha2 = "IS"
+	IS  ISO31661Alpha2 = "IS"
+	ISL ISO31661Alpha3 = "ISL"
 
 	// India
-	IN ISO31661Alpha2 = "IN"
+	IN  ISO31661Alpha2 = "IN"
+	IND ISO31661Alpha3 = "IND"
 
 	// Indonesia
-	ID ISO31661Alpha2 = "ID"
+	ID  ISO31661Alpha2 = "ID"
+	IDN ISO31661Alpha3 = "IDN"
 
-	// Iran, Islamic Republic of
-	IR ISO31661Alpha2 = "IR"
+	// Iran
+	IR  ISO31661Alpha2 = "IR"
+	IRN ISO31661Alpha3 = "IRN"
 
 	// Iraq
-	IQ ISO31661Alpha2 = "IQ"
+	IQ  ISO31661Alpha2 = "IQ"
+	IRQ ISO31661Alpha3 = "IRQ"
 
 	// Ireland
-	IE ISO31661Alpha2 = "IE"
+	IE  ISO31661Alpha2 = "IE"
+	IRL ISO31661Alpha3 = "IRL"
 
 	// Isle of Man
-	IM ISO31661Alpha2 = "IM"
+	IM  ISO31661Alpha2 = "IM"
+	IMN ISO31661Alpha3 = "IMN"
 
 	// Israel
-	IL ISO31661Alpha2 = "IL"
+	IL  ISO31661Alpha2 = "IL"
+	ISR ISO31661Alpha3 = "ISR"
 
 	// Italy
-	IT ISO31661Alpha2 = "IT"
+	IT  ISO31661Alpha2 = "IT"
+	ITA ISO31661Alpha3 = "ITA"
 
 	// Jamaica
-	JM ISO31661Alpha2 = "JM"
+	JM  ISO31661Alpha2 = "JM"
+	JAM ISO31661Alpha3 = "JAM"
 
 	// Japan
-	JP ISO31661Alpha2 = "JP"
+	JP  ISO31661Alpha2 = "JP"
+	JPN ISO31661Alpha3 = "JPN"
 
 	// Jersey
-	JE ISO31661Alpha2 = "JE"
+	JE  ISO31661Alpha2 = "JE"
+	JEY ISO31661Alpha3 = "JEY"
 
 	// Jordan
-	JO ISO31661Alpha2 = "JO"
+	JO  ISO31661Alpha2 = "JO"
+	JOR ISO31661Alpha3 = "JOR"
 
 	// Kazakhstan
-	KZ ISO31661Alpha2 = "KZ"
+	KZ  ISO31661Alpha2 = "KZ"
+	KAZ ISO31661Alpha3 = "KAZ"
 
 	// Kenya
-	KE ISO31661Alpha2 = "KE"
+	KE  ISO31661Alpha2 = "KE"
+	KEN ISO31661Alpha3 = "KEN"
 
 	// Kiribati
-	KI ISO31661Alpha2 = "KI"
-
-	// Korea, Democratic People's Republic of
-	KP ISO31661Alpha2 = "KP"
-
-	// Korea, Republic of
-	KR ISO31661Alpha2 = "KR"
+	KI  ISO31661Alpha2 = "KI"
+	KIR ISO31661Alpha3 = "KIR"
 
 	// Kuwait
-	KW ISO31661Alpha2 = "KW"
+	KW  ISO31661Alpha2 = "KW"
+	KWT ISO31661Alpha3 = "KWT"
 
 	// Kyrgyzstan
-	KG ISO31661Alpha2 = "KG"
+	KG  ISO31661Alpha2 = "KG"
+	KGZ ISO31661Alpha3 = "KGZ"
 
-	// Lao People's Democratic Republic
-	LA ISO31661Alpha2 = "LA"
+	// Laos
+	LA  ISO31661Alpha2 = "LA"
+	LAO ISO31661Alpha3 = "LAO"
 
 	// Latvia
-	LV ISO31661Alpha2 = "LV"
+	LV  ISO31661Alpha2 = "LV"
+	LVA ISO31661Alpha3 = "LVA"
 
 	// Lebanon
-	LB ISO31661Alpha2 = "LB"
+	LB  ISO31661Alpha2 = "LB"
+	LBN ISO31661Alpha3 = "LBN"
 
 	// Lesotho
-	LS ISO31661Alpha2 = "LS"
+	LS  ISO31661Alpha2 = "LS"
+	LSO ISO31661Alpha3 = "LSO"
 
 	// Liberia
-	LR ISO31661Alpha2 = "LR"
+	LR  ISO31661Alpha2 = "LR"
+	LBR ISO31661Alpha3 = "LBR"
 
 	// Libya
-	LY ISO31661Alpha2 = "LY"
+	LY  ISO31661Alpha2 = "LY"
+	LBY ISO31661Alpha3 = "LBY"
 
 	// Liechtenstein
-	LI ISO31661Alpha2 = "LI"
+	LI  ISO31661Alpha2 = "LI"
+	LIE ISO31661Alpha3 = "LIE"
 
 	// Lithuania
-	LT ISO31661Alpha2 = "LT"
+	LT  ISO31661Alpha2 = "LT"
+	LTU ISO31661Alpha3 = "LTU"
 
 	// Luxembourg
-	LU ISO31661Alpha2 = "LU"
-
-	// Macao
-	MO ISO31661Alpha2 = "MO"
-
-	// Macedonia, the Former Yugoslav Republic of
-	MK ISO31661Alpha2 = "MK"
+	LU  ISO31661Alpha2 = "LU"
+	LUX ISO31661Alpha3 = "LUX"
 
 	// Madagascar
-	MG ISO31661Alpha2 = "MG"
+	MG  ISO31661Alpha2 = "MG"
+	MDG ISO31661Alpha3 = "MDG"
 
 	// Malawi
-	MW ISO31661Alpha2 = "MW"
+	MW  ISO31661Alpha2 = "MW"
+	MWI ISO31661Alpha3 = "MWI"
 
 	// Malaysia
-	MY ISO31661Alpha2 = "MY"
+	MY  ISO31661Alpha2 = "MY"
+	MYS ISO31661Alpha3 = "MYS"
 
 	// Maldives
-	MV ISO31661Alpha2 = "MV"
+	MV  ISO31661Alpha2 = "MV"
+	MDV ISO31661Alpha3 = "MDV"
 
 	// Mali
-	ML ISO31661Alpha2 = "ML"
+	ML  ISO31661Alpha2 = "ML"
+	MLI ISO31661Alpha3 = "MLI"
 
 	// Malta
-	MT ISO31661Alpha2 = "MT"
+	MT  ISO31661Alpha2 = "MT"
+	MLT ISO31661Alpha3 = "MLT"
 
 	// Marshall Islands
-	MH ISO31661Alpha2 = "MH"
+	MH  ISO31661Alpha2 = "MH"
+	MHL ISO31661Alpha3 = "MHL"
 
 	// Martinique
-	MQ ISO31661Alpha2 = "MQ"
+	MQ  ISO31661Alpha2 = "MQ"
+	MTQ ISO31661Alpha3 = "MTQ"
 
 	// Mauritania
-	MR ISO31661Alpha2 = "MR"
+	MR  ISO31661Alpha2 = "MR"
+	MRT ISO31661Alpha3 = "MRT"
 
 	// Mauritius
-	MU ISO31661Alpha2 = "MU"
+	MU  ISO31661Alpha2 = "MU"
+	MUS ISO31661Alpha3 = "MUS"
 
 	// Mayotte
-	YT ISO31661Alpha2 = "YT"
+	YT  ISO31661Alpha2 = "YT"
+	MYT ISO31661Alpha3 = "MYT"
 
 	// Mexico
-	MX ISO31661Alpha2 = "MX"
+	MX  ISO31661Alpha2 = "MX"
+	MEX ISO31661Alpha3 = "MEX"
 
-	// Micronesia, Federated States of
-	FM ISO31661Alpha2 = "FM"
-
-	// Moldova, Republic of
-	MD ISO31661Alpha2 = "MD"
+	// Micronesia
+	FM  ISO31661Alpha2 = "FM"
+	FSM ISO31661Alpha3 = "FSM"
 
 	// Monaco
-	MC ISO31661Alpha2 = "MC"
+	MC  ISO31661Alpha2 = "MC"
+	MCO ISO31661Alpha3 = "MCO"
 
 	// Mongolia
-	MN ISO31661Alpha2 = "MN"
+	MN  ISO31661Alpha2 = "MN"
+	MNG ISO31661Alpha3 = "MNG"
 
 	// Montenegro
-	ME ISO31661Alpha2 = "ME"
+	ME  ISO31661Alpha2 = "ME"
+	MNE ISO31661Alpha3 = "MNE"
 
 	// Montserrat
-	MS ISO31661Alpha2 = "MS"
+	MS  ISO31661Alpha2 = "MS"
+	MSR ISO31661Alpha3 = "MSR"
 
 	// Morocco
-	MA ISO31661Alpha2 = "MA"
+	MA  ISO31661Alpha2 = "MA"
+	MAR ISO31661Alpha3 = "MAR"
 
 	// Mozambique
-	MZ ISO31661Alpha2 = "MZ"
+	MZ  ISO31661Alpha2 = "MZ"
+	MOZ ISO31661Alpha3 = "MOZ"
 
 	// Myanmar
-	MM ISO31661Alpha2 = "MM"
+	MM  ISO31661Alpha2 = "MM"
+	MMR ISO31661Alpha3 = "MMR"
 
 	// Namibia
-	NA ISO31661Alpha2 = "NA"
+	NA  ISO31661Alpha2 = "NA"
+	NAM ISO31661Alpha3 = "NAM"
 
 	// Nauru
-	NR ISO31661Alpha2 = "NR"
+	NR  ISO31661Alpha2 = "NR"
+	NRU ISO31661Alpha3 = "NRU"
 
 	// Nepal
-	NP ISO31661Alpha2 = "NP"
+	NP  ISO31661Alpha2 = "NP"
+	NPL ISO31661Alpha3 = "NPL"
 
 	// Netherlands
-	NL ISO31661Alpha2 = "NL"
+	NL  ISO31661Alpha2 = "NL"
+	NLD ISO31661Alpha3 = "NLD"
 
 	// New Caledonia
-	NC ISO31661Alpha2 = "NC"
+	NC  ISO31661Alpha2 = "NC"
+	NCL ISO31661Alpha3 = "NCL"
 
 	// New Zealand
-	NZ ISO31661Alpha2 = "NZ"
+	NZ  ISO31661Alpha2 = "NZ"
+	NZL ISO31661Alpha3 = "NZL"
 
 	// Nicaragua
-	NI ISO31661Alpha2 = "NI"
+	NI  ISO31661Alpha2 = "NI"
+	NIC ISO31661Alpha3 = "NIC"
 
 	// Niger
-	NE ISO31661Alpha2 = "NE"
+	NE  ISO31661Alpha2 = "NE"
+	NER ISO31661Alpha3 = "NER"
 
 	// Nigeria
-	NG ISO31661Alpha2 = "NG"
+	NG  ISO31661Alpha2 = "NG"
+	NGA ISO31661Alpha3 = "NGA"
 
 	// Niue
-	NU ISO31661Alpha2 = "NU"
+	NU  ISO31661Alpha2 = "NU"
+	NIU ISO31661Alpha3 = "NIU"
 
 	// Norfolk Island
-	NF ISO31661Alpha2 = "NF"
+	NF  ISO31661Alpha2 = "NF"
+	NFK ISO31661Alpha3 = "NFK"
 
 	// Northern Mariana Islands
-	MP ISO31661Alpha2 = "MP"
+	MP  ISO31661Alpha2 = "MP"
+	MNP ISO31661Alpha3 = "MNP"
 
 	// Norway
-	NO ISO31661Alpha2 = "NO"
+	NO  ISO31661Alpha2 = "NO"
+	NOR ISO31661Alpha3 = "NOR"
 
 	// Oman
-	OM ISO31661Alpha2 = "OM"
+	OM  ISO31661Alpha2 = "OM"
+	OMN ISO31661Alpha3 = "OMN"
 
 	// Pakistan
-	PK ISO31661Alpha2 = "PK"
+	PK  ISO31661Alpha2 = "PK"
+	PAK ISO31661Alpha3 = "PAK"
 
 	// Palau
-	PW ISO31661Alpha2 = "PW"
-
-	// Palestine, State of
-	PS ISO31661Alpha2 = "PS"
+	PW  ISO31661Alpha2 = "PW"
+	PLW ISO31661Alpha3 = "PLW"
 
 	// Panama
-	PA ISO31661Alpha2 = "PA"
+	PA  ISO31661Alpha2 = "PA"
+	PAN ISO31661Alpha3 = "PAN"
 
 	// Papua New Guinea
-	PG ISO31661Alpha2 = "PG"
+	PG  ISO31661Alpha2 = "PG"
+	PNG ISO31661Alpha3 = "PNG"
 
 	// Paraguay
-	PY ISO31661Alpha2 = "PY"
+	PY  ISO31661Alpha2 = "PY"
+	PRY ISO31661Alpha3 = "PRY"
 
 	// Peru
-	PE ISO31661Alpha2 = "PE"
+	PE  ISO31661Alpha2 = "PE"
+	PER ISO31661Alpha3 = "PER"
 
 	// Philippines
-	PH ISO31661Alpha2 = "PH"
+	PH  ISO31661Alpha2 = "PH"
+	PHL ISO31661Alpha3 = "PHL"
 
-	// Pitcairn
-	PN ISO31661Alpha2 = "PN"
+	// Pitcairn Islands
+	PN  ISO31661Alpha2 = "PN"
+	PCN ISO31661Alpha3 = "PCN"
 
 	// Poland
-	PL ISO31661Alpha2 = "PL"
+	PL  ISO31661Alpha2 = "PL"
+	POL ISO31661Alpha3 = "POL"
 
 	// Portugal
-	PT ISO31661Alpha2 = "PT"
+	PT  ISO31661Alpha2 = "PT"
+	PRT ISO31661Alpha3 = "PRT"
 
 	// Puerto Rico
-	PR ISO31661Alpha2 = "PR"
+	PR  ISO31661Alpha2 = "PR"
+	PRI ISO31661Alpha3 = "PRI"
 
 	// Qatar
-	QA ISO31661Alpha2 = "QA"
+	QA  ISO31661Alpha2 = "QA"
+	QAT ISO31661Alpha3 = "QAT"
 
-	// Réunion
-	RE ISO31661Alpha2 = "RE"
+	// South Korea
+	KR  ISO31661Alpha2 = "KR"
+	KOR ISO31661Alpha3 = "KOR"
+
+	// Moldova
+	MD  ISO31661Alpha2 = "MD"
+	MDA ISO31661Alpha3 = "MDA"
 
 	// Romania
-	RO ISO31661Alpha2 = "RO"
+	RO  ISO31661Alpha2 = "RO"
+	ROU ISO31661Alpha3 = "ROU"
 
-	// Russian Federation
-	RU ISO31661Alpha2 = "RU"
+	// Russia
+	RU  ISO31661Alpha2 = "RU"
+	RUS ISO31661Alpha3 = "RUS"
 
 	// Rwanda
-	RW ISO31661Alpha2 = "RW"
+	RW  ISO31661Alpha2 = "RW"
+	RWA ISO31661Alpha3 = "RWA"
 
-	// Saint Barthélemy
-	BL ISO31661Alpha2 = "BL"
+	// Réunion
+	RE  ISO31661Alpha2 = "RE"
+	REU ISO31661Alpha3 = "REU"
 
-	// Saint Helena, Ascension and Tristan da Cunha
-	SH ISO31661Alpha2 = "SH"
+	// St. Barthélemy
+	BL  ISO31661Alpha2 = "BL"
+	BLM ISO31661Alpha3 = "BLM"
 
-	// Saint Kitts and Nevis
-	KN ISO31661Alpha2 = "KN"
+	// St. Helena
+	SH  ISO31661Alpha2 = "SH"
+	SHN ISO31661Alpha3 = "SHN"
 
-	// Saint Lucia
-	LC ISO31661Alpha2 = "LC"
+	// St. Kitts & Nevis
+	KN  ISO31661Alpha2 = "KN"
+	KNA ISO31661Alpha3 = "KNA"
 
-	// Saint Martin (French part)
-	MF ISO31661Alpha2 = "MF"
+	// St. Lucia
+	LC  ISO31661Alpha2 = "LC"
+	LCA ISO31661Alpha3 = "LCA"
 
-	// Saint Pierre and Miquelon
-	PM ISO31661Alpha2 = "PM"
+	// St. Martin
+	MF  ISO31661Alpha2 = "MF"
+	MAF ISO31661Alpha3 = "MAF"
 
-	// Saint Vincent and the Grenadines
-	VC ISO31661Alpha2 = "VC"
+	// St. Pierre & Miquelon
+	PM  ISO31661Alpha2 = "PM"
+	SPM ISO31661Alpha3 = "SPM"
+
+	// St. Vincent & Grenadines
+	VC  ISO31661Alpha2 = "VC"
+	VCT ISO31661Alpha3 = "VCT"
 
 	// Samoa
-	WS ISO31661Alpha2 = "WS"
+	WS  ISO31661Alpha2 = "WS"
+	WSM ISO31661Alpha3 = "WSM"
 
 	// San Marino
-	SM ISO31661Alpha2 = "SM"
+	SM  ISO31661Alpha2 = "SM"
+	SMR ISO31661Alpha3 = "SMR"
 
-	// Sao Tome and Principe
-	ST ISO31661Alpha2 = "ST"
+	// São Tomé & Príncipe
+	ST  ISO31661Alpha2 = "ST"
+	STP ISO31661Alpha3 = "STP"
 
 	// Saudi Arabia
-	SA ISO31661Alpha2 = "SA"
+	SA  ISO31661Alpha2 = "SA"
+	SAU ISO31661Alpha3 = "SAU"
 
 	// Senegal
-	SN ISO31661Alpha2 = "SN"
+	SN  ISO31661Alpha2 = "SN"
+	SEN ISO31661Alpha3 = "SEN"
 
 	// Serbia
-	RS ISO31661Alpha2 = "RS"
+	RS  ISO31661Alpha2 = "RS"
+	SRB ISO31661Alpha3 = "SRB"
 
 	// Seychelles
-	SC ISO31661Alpha2 = "SC"
+	SC  ISO31661Alpha2 = "SC"
+	SYC ISO31661Alpha3 = "SYC"
 
 	// Sierra Leone
-	SL ISO31661Alpha2 = "SL"
+	SL  ISO31661Alpha2 = "SL"
+	SLE ISO31661Alpha3 = "SLE"
 
 	// Singapore
-	SG ISO31661Alpha2 = "SG"
+	SG  ISO31661Alpha2 = "SG"
+	SGP ISO31661Alpha3 = "SGP"
 
-	// Sint Maarten (Dutch part)
-	SX ISO31661Alpha2 = "SX"
+	// Sint Maarten
+	SX  ISO31661Alpha2 = "SX"
+	SXM ISO31661Alpha3 = "SXM"
 
 	// Slovakia
-	SK ISO31661Alpha2 = "SK"
+	SK  ISO31661Alpha2 = "SK"
+	SVK ISO31661Alpha3 = "SVK"
 
 	// Slovenia
-	SI ISO31661Alpha2 = "SI"
+	SI  ISO31661Alpha2 = "SI"
+	SVN ISO31661Alpha3 = "SVN"
 
 	// Solomon Islands
-	SB ISO31661Alpha2 = "SB"
+	SB  ISO31661Alpha2 = "SB"
+	SLB ISO31661Alpha3 = "SLB"
 
 	// Somalia
-	SO ISO31661Alpha2 = "SO"
+	SO  ISO31661Alpha2 = "SO"
+	SOM ISO31661Alpha3 = "SOM"
 
 	// South Africa
-	ZA ISO31661Alpha2 = "ZA"
+	ZA  ISO31661Alpha2 = "ZA"
+	ZAF ISO31661Alpha3 = "ZAF"
 
-	// South Georgia and the South Sandwich Islands
-	GS ISO31661Alpha2 = "GS"
+	// South Georgia & South Sandwich Islands
+	GS  ISO31661Alpha2 = "GS"
+	SGS ISO31661Alpha3 = "SGS"
 
 	// South Sudan
-	SS ISO31661Alpha2 = "SS"
+	SS  ISO31661Alpha2 = "SS"
+	SSD ISO31661Alpha3 = "SSD"
 
 	// Spain
-	ES ISO31661Alpha2 = "ES"
+	ES  ISO31661Alpha2 = "ES"
+	ESP ISO31661Alpha3 = "ESP"
 
 	// Sri Lanka
-	LK ISO31661Alpha2 = "LK"
+	LK  ISO31661Alpha2 = "LK"
+	LKA ISO31661Alpha3 = "LKA"
+
+	// Palestine
+	PS  ISO31661Alpha2 = "PS"
+	PSE ISO31661Alpha3 = "PSE"
 
 	// Sudan
-	SD ISO31661Alpha2 = "SD"
+	SD  ISO31661Alpha2 = "SD"
+	SDN ISO31661Alpha3 = "SDN"
 
 	// Suriname
-	SR ISO31661Alpha2 = "SR"
+	SR  ISO31661Alpha2 = "SR"
+	SUR ISO31661Alpha3 = "SUR"
 
-	// Svalbard and Jan Mayen
-	SJ ISO31661Alpha2 = "SJ"
+	// Svalbard & Jan Mayen
+	SJ  ISO31661Alpha2 = "SJ"
+	SJM ISO31661Alpha3 = "SJM"
 
 	// Swaziland
-	SZ ISO31661Alpha2 = "SZ"
+	SZ  ISO31661Alpha2 = "SZ"
+	SWZ ISO31661Alpha3 = "SWZ"
 
 	// Sweden
-	SE ISO31661Alpha2 = "SE"
+	SE  ISO31661Alpha2 = "SE"
+	SWE ISO31661Alpha3 = "SWE"
 
 	// Switzerland
-	CH ISO31661Alpha2 = "CH"
+	CH  ISO31661Alpha2 = "CH"
+	CHE ISO31661Alpha3 = "CHE"
 
-	// Syrian Arab Republic
-	SY ISO31661Alpha2 = "SY"
-
-	// Taiwan, Province of China
-	TW ISO31661Alpha2 = "TW"
+	// Syria
+	SY  ISO31661Alpha2 = "SY"
+	SYR ISO31661Alpha3 = "SYR"
 
 	// Tajikistan
-	TJ ISO31661Alpha2 = "TJ"
-
-	// Tanzania, United Republic of
-	TZ ISO31661Alpha2 = "TZ"
+	TJ  ISO31661Alpha2 = "TJ"
+	TJK ISO31661Alpha3 = "TJK"
 
 	// Thailand
-	TH ISO31661Alpha2 = "TH"
+	TH  ISO31661Alpha2 = "TH"
+	THA ISO31661Alpha3 = "THA"
+
+	// Macedonia
+	MK  ISO31661Alpha2 = "MK"
+	MKD ISO31661Alpha3 = "MKD"
 
 	// Timor-Leste
-	TL ISO31661Alpha2 = "TL"
+	TL  ISO31661Alpha2 = "TL"
+	TLS ISO31661Alpha3 = "TLS"
 
 	// Togo
-	TG ISO31661Alpha2 = "TG"
+	TG  ISO31661Alpha2 = "TG"
+	TGO ISO31661Alpha3 = "TGO"
 
 	// Tokelau
-	TK ISO31661Alpha2 = "TK"
+	TK  ISO31661Alpha2 = "TK"
+	TKL ISO31661Alpha3 = "TKL"
 
 	// Tonga
-	TO ISO31661Alpha2 = "TO"
+	TO  ISO31661Alpha2 = "TO"
+	TON ISO31661Alpha3 = "TON"
 
-	// Trinidad and Tobago
-	TT ISO31661Alpha2 = "TT"
+	// Trinidad & Tobago
+	TT  ISO31661Alpha2 = "TT"
+	TTO ISO31661Alpha3 = "TTO"
 
 	// Tunisia
-	TN ISO31661Alpha2 = "TN"
+	TN  ISO31661Alpha2 = "TN"
+	TUN ISO31661Alpha3 = "TUN"
 
 	// Turkey
-	TR ISO31661Alpha2 = "TR"
+	TR  ISO31661Alpha2 = "TR"
+	TUR ISO31661Alpha3 = "TUR"
 
 	// Turkmenistan
-	TM ISO31661Alpha2 = "TM"
+	TM  ISO31661Alpha2 = "TM"
+	TKM ISO31661Alpha3 = "TKM"
 
-	// Turks and Caicos Islands
-	TC ISO31661Alpha2 = "TC"
+	// Turks & Caicos Islands
+	TC  ISO31661Alpha2 = "TC"
+	TCA ISO31661Alpha3 = "TCA"
 
 	// Tuvalu
-	TV ISO31661Alpha2 = "TV"
+	TV  ISO31661Alpha2 = "TV"
+	TUV ISO31661Alpha3 = "TUV"
 
 	// Uganda
-	UG ISO31661Alpha2 = "UG"
+	UG  ISO31661Alpha2 = "UG"
+	UGA ISO31661Alpha3 = "UGA"
 
 	// Ukraine
-	UA ISO31661Alpha2 = "UA"
+	UA  ISO31661Alpha2 = "UA"
+	UKR ISO31661Alpha3 = "UKR"
 
 	// United Arab Emirates
-	AE ISO31661Alpha2 = "AE"
+	AE  ISO31661Alpha2 = "AE"
+	ARE ISO31661Alpha3 = "ARE"
 
-	// United Kingdom
-	GB ISO31661Alpha2 = "GB"
+	// UK
+	GB  ISO31661Alpha2 = "GB"
+	GBR ISO31661Alpha3 = "GBR"
 
-	// United States
-	US ISO31661Alpha2 = "US"
+	// Tanzania
+	TZ  ISO31661Alpha2 = "TZ"
+	TZA ISO31661Alpha3 = "TZA"
 
-	// United States Minor Outlying Islands
-	UM ISO31661Alpha2 = "UM"
+	// U.S. Outlying Islands
+	UM  ISO31661Alpha2 = "UM"
+	UMI ISO31661Alpha3 = "UMI"
+
+	// U.S. Virgin Islands
+	VI  ISO31661Alpha2 = "VI"
+	VIR ISO31661Alpha3 = "VIR"
+
+	// US
+	US  ISO31661Alpha2 = "US"
+	USA ISO31661Alpha3 = "USA"
 
 	// Uruguay
-	UY ISO31661Alpha2 = "UY"
+	UY  ISO31661Alpha2 = "UY"
+	URY ISO31661Alpha3 = "URY"
 
 	// Uzbekistan
-	UZ ISO31661Alpha2 = "UZ"
+	UZ  ISO31661Alpha2 = "UZ"
+	UZB ISO31661Alpha3 = "UZB"
 
 	// Vanuatu
-	VU ISO31661Alpha2 = "VU"
+	VU  ISO31661Alpha2 = "VU"
+	VUT ISO31661Alpha3 = "VUT"
 
-	// Venezuela, Bolivarian Republic of
-	VE ISO31661Alpha2 = "VE"
+	// Venezuela
+	VE  ISO31661Alpha2 = "VE"
+	VEN ISO31661Alpha3 = "VEN"
 
-	// Viet Nam
-	VN ISO31661Alpha2 = "VN"
+	// Vietnam
+	VN  ISO31661Alpha2 = "VN"
+	VNM ISO31661Alpha3 = "VNM"
 
-	// Virgin Islands, British
-	VG ISO31661Alpha2 = "VG"
-
-	// Virgin Islands, U.S.
-	VI ISO31661Alpha2 = "VI"
-
-	// Wallis and Futuna
-	WF ISO31661Alpha2 = "WF"
+	// Wallis & Futuna
+	WF  ISO31661Alpha2 = "WF"
+	WLF ISO31661Alpha3 = "WLF"
 
 	// Western Sahara
-	EH ISO31661Alpha2 = "EH"
+	EH  ISO31661Alpha2 = "EH"
+	ESH ISO31661Alpha3 = "ESH"
 
 	// Yemen
-	YE ISO31661Alpha2 = "YE"
+	YE  ISO31661Alpha2 = "YE"
+	YEM ISO31661Alpha3 = "YEM"
 
 	// Zambia
-	ZM ISO31661Alpha2 = "ZM"
+	ZM  ISO31661Alpha2 = "ZM"
+	ZMB ISO31661Alpha3 = "ZMB"
 
 	// Zimbabwe
-	ZW ISO31661Alpha2 = "ZW"
+	ZW  ISO31661Alpha2 = "ZW"
+	ZWE ISO31661Alpha3 = "ZWE"
+
+	// Åland Islands
+	AX  ISO31661Alpha2 = "AX"
+	ALA ISO31661Alpha3 = "ALA"
 )
 
 type ISO31661Alpha2 string
@@ -758,9 +1007,9 @@ func (i ISO31661Alpha2) String() string {
 	return string(i)
 }
 
-var ValidCodes = []ISO31661Alpha2{
+var ValidAlpha2Codes = []ISO31661Alpha2{
+	TW,
 	AF,
-	AX,
 	AL,
 	DZ,
 	AS,
@@ -792,33 +1041,37 @@ var ValidCodes = []ISO31661Alpha2{
 	BV,
 	BR,
 	IO,
+	VG,
 	BN,
 	BG,
 	BF,
 	BI,
+	CV,
 	KH,
 	CM,
 	CA,
-	CV,
 	KY,
 	CF,
 	TD,
 	CL,
 	CN,
+	HK,
+	MO,
 	CX,
 	CC,
 	CO,
 	KM,
 	CG,
-	CD,
 	CK,
 	CR,
-	CI,
 	HR,
 	CU,
 	CW,
 	CY,
 	CZ,
+	CI,
+	KP,
+	CD,
 	DK,
 	DJ,
 	DM,
@@ -858,7 +1111,6 @@ var ValidCodes = []ISO31661Alpha2{
 	HM,
 	VA,
 	HN,
-	HK,
 	HU,
 	IS,
 	IN,
@@ -876,8 +1128,6 @@ var ValidCodes = []ISO31661Alpha2{
 	KZ,
 	KE,
 	KI,
-	KP,
-	KR,
 	KW,
 	KG,
 	LA,
@@ -889,8 +1139,6 @@ var ValidCodes = []ISO31661Alpha2{
 	LI,
 	LT,
 	LU,
-	MO,
-	MK,
 	MG,
 	MW,
 	MY,
@@ -904,7 +1152,6 @@ var ValidCodes = []ISO31661Alpha2{
 	YT,
 	MX,
 	FM,
-	MD,
 	MC,
 	MN,
 	ME,
@@ -928,7 +1175,6 @@ var ValidCodes = []ISO31661Alpha2{
 	OM,
 	PK,
 	PW,
-	PS,
 	PA,
 	PG,
 	PY,
@@ -939,10 +1185,12 @@ var ValidCodes = []ISO31661Alpha2{
 	PT,
 	PR,
 	QA,
-	RE,
+	KR,
+	MD,
 	RO,
 	RU,
 	RW,
+	RE,
 	BL,
 	SH,
 	KN,
@@ -969,6 +1217,7 @@ var ValidCodes = []ISO31661Alpha2{
 	SS,
 	ES,
 	LK,
+	PS,
 	SD,
 	SR,
 	SJ,
@@ -976,10 +1225,9 @@ var ValidCodes = []ISO31661Alpha2{
 	SE,
 	CH,
 	SY,
-	TW,
 	TJ,
-	TZ,
 	TH,
+	MK,
 	TL,
 	TG,
 	TK,
@@ -994,18 +1242,277 @@ var ValidCodes = []ISO31661Alpha2{
 	UA,
 	AE,
 	GB,
-	US,
+	TZ,
 	UM,
+	VI,
+	US,
 	UY,
 	UZ,
 	VU,
 	VE,
 	VN,
-	VG,
-	VI,
 	WF,
 	EH,
 	YE,
 	ZM,
 	ZW,
+	AX,
+}
+
+type ISO31661Alpha3 string
+
+func (i ISO31661Alpha3) String() string {
+	return string(i)
+}
+
+var ValidAlpha3Codes = []ISO31661Alpha3{
+	TWN,
+	AFG,
+	ALB,
+	DZA,
+	ASM,
+	AND,
+	AGO,
+	AIA,
+	ATA,
+	ATG,
+	ARG,
+	ARM,
+	ABW,
+	AUS,
+	AUT,
+	AZE,
+	BHS,
+	BHR,
+	BGD,
+	BRB,
+	BLR,
+	BEL,
+	BLZ,
+	BEN,
+	BMU,
+	BTN,
+	BOL,
+	BES,
+	BIH,
+	BWA,
+	BVT,
+	BRA,
+	IOT,
+	VGB,
+	BRN,
+	BGR,
+	BFA,
+	BDI,
+	CPV,
+	KHM,
+	CMR,
+	CAN,
+	CYM,
+	CAF,
+	TCD,
+	CHL,
+	CHN,
+	HKG,
+	MAC,
+	CXR,
+	CCK,
+	COL,
+	COM,
+	COG,
+	COK,
+	CRI,
+	HRV,
+	CUB,
+	CUW,
+	CYP,
+	CZE,
+	CIV,
+	PRK,
+	COD,
+	DNK,
+	DJI,
+	DMA,
+	DOM,
+	ECU,
+	EGY,
+	SLV,
+	GNQ,
+	ERI,
+	EST,
+	ETH,
+	FLK,
+	FRO,
+	FJI,
+	FIN,
+	FRA,
+	GUF,
+	PYF,
+	ATF,
+	GAB,
+	GMB,
+	GEO,
+	DEU,
+	GHA,
+	GIB,
+	GRC,
+	GRL,
+	GRD,
+	GLP,
+	GUM,
+	GTM,
+	GGY,
+	GIN,
+	GNB,
+	GUY,
+	HTI,
+	HMD,
+	VAT,
+	HND,
+	HUN,
+	ISL,
+	IND,
+	IDN,
+	IRN,
+	IRQ,
+	IRL,
+	IMN,
+	ISR,
+	ITA,
+	JAM,
+	JPN,
+	JEY,
+	JOR,
+	KAZ,
+	KEN,
+	KIR,
+	KWT,
+	KGZ,
+	LAO,
+	LVA,
+	LBN,
+	LSO,
+	LBR,
+	LBY,
+	LIE,
+	LTU,
+	LUX,
+	MDG,
+	MWI,
+	MYS,
+	MDV,
+	MLI,
+	MLT,
+	MHL,
+	MTQ,
+	MRT,
+	MUS,
+	MYT,
+	MEX,
+	FSM,
+	MCO,
+	MNG,
+	MNE,
+	MSR,
+	MAR,
+	MOZ,
+	MMR,
+	NAM,
+	NRU,
+	NPL,
+	NLD,
+	NCL,
+	NZL,
+	NIC,
+	NER,
+	NGA,
+	NIU,
+	NFK,
+	MNP,
+	NOR,
+	OMN,
+	PAK,
+	PLW,
+	PAN,
+	PNG,
+	PRY,
+	PER,
+	PHL,
+	PCN,
+	POL,
+	PRT,
+	PRI,
+	QAT,
+	KOR,
+	MDA,
+	ROU,
+	RUS,
+	RWA,
+	REU,
+	BLM,
+	SHN,
+	KNA,
+	LCA,
+	MAF,
+	SPM,
+	VCT,
+	WSM,
+	SMR,
+	STP,
+	SAU,
+	SEN,
+	SRB,
+	SYC,
+	SLE,
+	SGP,
+	SXM,
+	SVK,
+	SVN,
+	SLB,
+	SOM,
+	ZAF,
+	SGS,
+	SSD,
+	ESP,
+	LKA,
+	PSE,
+	SDN,
+	SUR,
+	SJM,
+	SWZ,
+	SWE,
+	CHE,
+	SYR,
+	TJK,
+	THA,
+	MKD,
+	TLS,
+	TGO,
+	TKL,
+	TON,
+	TTO,
+	TUN,
+	TUR,
+	TKM,
+	TCA,
+	TUV,
+	UGA,
+	UKR,
+	ARE,
+	GBR,
+	TZA,
+	UMI,
+	VIR,
+	USA,
+	URY,
+	UZB,
+	VUT,
+	VEN,
+	VNM,
+	WLF,
+	ESH,
+	YEM,
+	ZMB,
+	ZWE,
+	ALA,
 }
