@@ -12,7 +12,8 @@ import (
 	"os"
 	"text/template"
 	"time"
-	)
+	"go/format"
+)
 
 const rawFile = "https://datahub.io/core/country-codes/r/country-codes.json"
 const textFile = "latest_iso.txt"
@@ -95,10 +96,10 @@ func main() {
 	}
 
 	// format the new source code
-	//byt, err := format.Source(buf.Bytes())
-	//if err != nil {
-	//	log.Printf("error formatting source: %v", err)
-	//}
+	byt, err := format.Source(buf.Bytes())
+	if err != nil {
+		log.Printf("error formatting source: %v", err)
+	}
 
 	// create the outfile
 	outfile, err := os.Create("../iso.go")
@@ -107,7 +108,7 @@ func main() {
 	}
 
 	// write it to disk
-	if _, err := outfile.Write(buf.Bytes()); err != nil {
+	if _, err := outfile.Write(byt); err != nil {
 		log.Printf("error writing to disk: %v", err)
 	}
 }
