@@ -39,7 +39,7 @@ func (i ISO31661Alpha2) String() string {
 }
 
 const (
-	{{range $k, $v := .}}
+	{{range $k, $v := . -}}
 		// {{$v.Name }}
 		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
 	{{end -}}
@@ -58,7 +58,7 @@ func (i ISO31661Alpha3) String() string {
 }
 
 const (
-	{{range $k, $v := .}}
+	{{range $k, $v := . -}}
 		// {{$v.Name }}
 		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
 	{{end -}}
