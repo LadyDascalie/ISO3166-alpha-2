@@ -32,19 +32,18 @@ var tpl = `
 
 package iso3166
 
-const (
-	{{range $k, $v := .}}
-		// {{$v.Name }}
-		{{ $v.CodeISO3166Alpha2 }} ISO31661Alpha2 = "{{$v.CodeISO3166Alpha2 }}"
-		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
-	{{end -}}
-)
-
 type ISO31661Alpha2 string
 
 func (i ISO31661Alpha2) String() string {
 	return string(i)
 }
+
+const (
+	{{range $k, $v := .}}
+		// {{$v.Name }}
+		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
+	{{end -}}
+)
 
 var ValidAlpha2Codes = []ISO31661Alpha2{
 	{{range $k, $v := .}}
@@ -57,6 +56,13 @@ type ISO31661Alpha3 string
 func (i ISO31661Alpha3) String() string {
 	return string(i)
 }
+
+const (
+	{{range $k, $v := .}}
+		// {{$v.Name }}
+		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
+	{{end -}}
+)
 
 var ValidAlpha3Codes = []ISO31661Alpha3{
 	{{range $k, $v := .}}

@@ -1,5 +1,9 @@
-# ISO3166-1-Alpha-2
-# ISO3166-1-Alpha-3
+# ISO3166
+
+The following formats are supported by this package:
+
+- ISO3166-1-Alpha-2
+- ISO3166-1-Alpha-3
 
 This repository's generated code is built using the data provided by [datahub.io](https://datahub.io/core/country-code).
 
