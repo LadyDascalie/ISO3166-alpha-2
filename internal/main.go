@@ -6,13 +6,13 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-		"io/ioutil"
+	"go/format"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"text/template"
 	"time"
-	"go/format"
 )
 
 const rawFile = "https://datahub.io/core/country-codes/r/country-codes.json"
@@ -41,7 +41,7 @@ func (i ISO31661Alpha2) String() string {
 const (
 	{{range $k, $v := . -}}
 		// {{$v.Name }}
-		{{ $v.CodeISO3166Alpha3 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha3 }}"
+		{{ $v.CodeISO3166Alpha2 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha2 }}"
 	{{end -}}
 )
 
