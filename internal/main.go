@@ -41,7 +41,7 @@ func (i ISO31661Alpha2) String() string {
 const (
 	{{range $k, $v := . -}}
 		// {{$v.Name }}
-		{{ $v.CodeISO3166Alpha2 }} ISO31661Alpha3 = "{{$v.CodeISO3166Alpha2 }}"
+		{{ $v.CodeISO3166Alpha2 }} ISO31661Alpha2 = "{{$v.CodeISO3166Alpha2 }}"
 	{{end -}}
 )
 
